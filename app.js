@@ -5,6 +5,6 @@ let c = 30;
 let d = 10;
 let x = a + b + c;
 
-console.log('a' , a)
-console.log('b' , b)
-console.log('c' , c)
+console.log({a})
+console.log({b})
+console.log({c})

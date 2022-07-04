@@ -1,3 +1,8 @@
+
+// alert('hola mundo desde app.js')
+
+
+
 // console.log('Hola mundo')
 let a = 10;
 let b = 20;
@@ -14,7 +19,9 @@ const saludo = c + d;
 // console.log({a})
 // console.log({b})
 // console.log({c})
-console,localStorage
+
 c = 'Hola de nuevo'
 
 // console.table({a, c, b, d, x})
+
+var miNombre = 'Fernado';

@@ -14,7 +14,7 @@ const saludo = c + d;
 // console.log({a})
 // console.log({b})
 // console.log({c})
-
+console,localStorage
 c = 'Hola de nuevo'
 
 // console.table({a, c, b, d, x})

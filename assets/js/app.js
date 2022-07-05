@@ -22,6 +22,7 @@ const saludo = c + d;
 
 c = 'Hola de nuevo'
 
+
 // console.table({a, c, b, d, x})
 
 var miNombre = 'Fernado';

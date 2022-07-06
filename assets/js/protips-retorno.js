@@ -26,3 +26,32 @@ console.log({ casado, vivo, nombre, saludo });
 
 const { apellido: nuevoApellido }  = crearPersona( 'Fernado', 'Herrera');
 console.log({ nuevoApellido });
+
+//Destructuracion de objetos
+
+const tony = {
+    nombre: 'Tony Stark',
+    codeName: 'Ironman',
+    vivo: false,
+    edad: 40,
+    trajes: ['Mark I', 'Mark V', 'Hulkbuster'],
+    
+};
+
+// const imprimePropiedades = ( personaje ) =>{
+//     console.log('Nombre', personaje.nombre );
+//     console.log('CodeName', personaje.codeName );
+//     console.log('Vivo', personaje.vivo );
+//     console.log('Edad', personaje.edad );
+//     console.log('Trajes', personaje.trajes );
+// }
+
+const imprimePropiedades = ( {nombre, codeName, vivo, edad, trajes} ) =>{
+    console.log({nombre}); 
+    console.log({codeName}); 
+    console.log({vivo}); 
+    console.log({edad}); 
+    console.log({trajes});
+}
+
+imprimePropiedades( tony )

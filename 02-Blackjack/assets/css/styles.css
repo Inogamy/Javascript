@@ -1,0 +1,19 @@
+ 
+ 
+html, body{
+    margin: 0px;
+    background-color: #377D71;
+    color: white;
+}
+
+ .titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+ }
+
+ .carta{
+    width: 150px;
+ }

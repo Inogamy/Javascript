@@ -51,7 +51,9 @@ const a5 = soyUnFalse || soyUnNull || regresaTrue() || 'Ya no soy falso de nuevo
 
 console.log({a1, a2, a3, a4, a5 });
 
-if ( regresaFalse() && regresaTrue() && (true && false && true)){
+if ( regresaFalse() && regresaTrue() && (true ||false || true)){
     console.log('Hacer algo');
 }
-else
+else{
+    console.log('Hacer otra cosa');
+}

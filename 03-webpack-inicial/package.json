@@ -1,0 +1,11 @@
+{
+  "name": "webpack-inicial",
+  "version": "1.0.0",
+  "description": "Este es un cascaro de un proyecto de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilder Canales",
+  "license": "ISC"
+}

@@ -1,9 +1,15 @@
-
-
 import "./styles.css";
 
-import { Todo } from "./classes/todo.class";
+import { Todo, TodoList } from './classes'
+import { crearTodoHtml } from "./js/components";
 
-const tarea = new Todo('Aprender Javascript');
+export const todoList = new TodoList();
 
-console.log(tarea);
+const tarea = new Todo('Aprender Javascript!!!');
+todoList.nuevoTodo( tarea );
+
+
+
+console.log( todoList );
+
+crearTodoHtml( tarea );
